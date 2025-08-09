@@ -24,5 +24,7 @@ print()
 #Visualizing survived and not survived passenger
 
 sns.countplot(x='Survived', data=df)
+plt.xlabel('Survived (1) or Not Survived (0)')
+plt.ylabel('Count')
 plt.title('Survived vs Not Survived')
 plt.show()
